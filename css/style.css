@@ -531,4 +531,162 @@ img {
 }
 
 /*========footer=======*/
+.footer {
+    padding: 96px 0;
+    background-color: #2e2f42;
+}
 
+.footer-logo-style {
+    color: #f4f4fd;
+}
+.foot-left {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 72px;
+
+}
+.logo-futer {
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 16px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+.footer-text {
+    max-width: 264px;
+    line-height: 1.5;
+    color: #F4F4FD;
+    letter-spacing: 0.02em;
+}
+
+.container-fut {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 518px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    align-items: baseline;
+}
+.fut-social {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.fsm {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+    margin-bottom: 16px;
+}
+
+.f-inst :hover,
+.f-inst :focus {
+    background-color: #31d0aa;
+}
+
+.f-icon-social {
+    display: flex;
+    margin-top: 8px;
+    justify-content: center;
+    gap: 16px;
+}
+.container-sub {
+    display: flex;
+    padding-top: 72px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    }
+
+.sub-text {
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+}
+
+.fut-form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.futer-input {
+    width: 264px;
+    height: 40px;
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    color: #ffffff;
+}
+
+.fut-form {
+    gap: 16px;
+}
+
+.futer-bat {
+    width: 165px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #4D5AE5;
+    border: none;
+    border-radius: 4px;
+}
+
+.futer-bat-icon {
+    margin-left: 16px;
+    fill: #ffffff;
+}
+@media screen and (min-width: 1158px) {
+.footer {
+        padding: 96px 0;
+    }
+.container-fut {
+            width: 1158px;
+        }
+ .foot-left {
+        margin-right: 120px;
+                }
+.container-sub {
+  margin-left: 80px;
+}
+.fut-form {
+gap: 24px;
+flex-direction: row;
+.fut-social {
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        flex-direction: row;
+    }
+}
+}
